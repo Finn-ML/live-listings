@@ -8,7 +8,6 @@ export type CheckCircleType = {
   trailingIcon?: boolean;
   leadingIcon?: boolean;
   label?: string;
-  checkCircle: string;
 
   /** Variant props */
   type?: "Success" | "Alert" | "Brand";
@@ -20,7 +19,6 @@ const CheckCircle: NextPage<CheckCircleType> = ({
   trailingIcon = false,
   leadingIcon = true,
   label = "Offer accepted",
-  checkCircle,
 }) => {
   return (
     <Box className={[styles.root, className].join(" ")} data-type={type}>
@@ -32,7 +30,7 @@ const CheckCircle: NextPage<CheckCircleType> = ({
           height={18}
           sizes="100vw"
           alt=""
-          src={checkCircle}
+          src="/check-circle.svg"
         />
       )}
       <Box className={styles.labelContainer}>

@@ -15,13 +15,11 @@ export type TransactionCardType = {
   townCity?: string;
   addressLine?: string;
   listed?: string;
-  frame1261156729: string;
   showDiv?: boolean;
   divVisible?: boolean;
   cTA?: string;
   highlighted?: boolean;
   stage?: string;
-  liflagTriangleRight: string;
   badgeType?: string;
   badgeType1?: string;
   badgeType2?: string;
@@ -30,7 +28,6 @@ export type TransactionCardType = {
   badgeLabel1?: string;
   badgeLabel2?: string;
   badgeLabel3?: string;
-  badgeScale01: string;
   badgeChevronRight?: string;
   badgeChevronRight1?: string;
   badgeChevronRight2?: string;
@@ -49,7 +46,6 @@ export type TransactionCardType = {
   badgeScale01Border3?: string;
   type1?: "Success" | "Alert" | "Brand";
   label?: string;
-  checkCircle: string;
   chevronRight?: string;
   trailingIcon?: boolean;
   leadingIcon?: boolean;
@@ -68,13 +64,11 @@ const TransactionCard: NextPage<TransactionCardType> = ({
   townCity = "Washington, DC",
   addressLine = "1427 Monroe Street NW, Hilltop",
   listed = "72",
-  frame1261156729,
   showDiv,
   divVisible,
   cTA,
   highlighted,
   stage,
-  liflagTriangleRight,
   badgeType,
   badgeType1,
   badgeType2,
@@ -83,7 +77,6 @@ const TransactionCard: NextPage<TransactionCardType> = ({
   badgeLabel1,
   badgeLabel2,
   badgeLabel3,
-  badgeScale01,
   badgeChevronRight,
   badgeChevronRight1,
   badgeChevronRight2,
@@ -102,7 +95,6 @@ const TransactionCard: NextPage<TransactionCardType> = ({
   badgeScale01Border3,
   type1 = "Success",
   label,
-  checkCircle,
   chevronRight,
   trailingIcon,
   leadingIcon,
@@ -117,7 +109,7 @@ const TransactionCard: NextPage<TransactionCardType> = ({
       leadingIcon: true,
       label: "1,500 ft²",
       scale01Border: "none",
-      scale01: badgeScale01,
+      type1: "Default",
     },
     {
       type: "Default",
@@ -125,7 +117,7 @@ const TransactionCard: NextPage<TransactionCardType> = ({
       leadingIcon: true,
       label: "3",
       scale01Border: "unset",
-      scale01: "/li-bed-double.svg",
+      type1: "",
     },
     {
       type: "Default",
@@ -133,7 +125,7 @@ const TransactionCard: NextPage<TransactionCardType> = ({
       leadingIcon: true,
       label: "3",
       scale01Border: "unset",
-      scale01: "/li-bath.svg",
+      type1: "",
     },
     {
       type: "Default",
@@ -141,7 +133,7 @@ const TransactionCard: NextPage<TransactionCardType> = ({
       leadingIcon: true,
       label: "HT",
       scale01Border: "unset",
-      scale01: "/li-store.svg",
+      type1: "",
     },
   ]);
   return (
@@ -156,16 +148,12 @@ const TransactionCard: NextPage<TransactionCardType> = ({
         height={160}
         sizes="100vw"
         alt=""
-        src={frame1261156729}
+        src="/Frame-12611567292@2x.png"
       />
       <Box className={styles.frameParent}>
         <Box className={styles.frameGroup}>
           <Box className={styles.stageIndicatorParent}>
-            <LiflagTriangleRight
-              highlighted={highlighted}
-              stage={stage}
-              liflagTriangleRight={liflagTriangleRight}
-            />
+            <LiflagTriangleRight highlighted={highlighted} stage={stage} />
             <Box className={styles.beverlyWaySpringfieldParent}>
               <div className={styles.beverlyWaySpringfield}>{addressLine}</div>
               <div className={styles.washingtonDc}>{townCity}</div>
@@ -180,7 +168,7 @@ const TransactionCard: NextPage<TransactionCardType> = ({
                 leadingIcon={item.leadingIcon}
                 label={item.label}
                 scale01Border={item.scale01Border}
-                scale01={item.scale01}
+                type1={item.type1}
               />
             ))}
           </Box>
@@ -203,7 +191,6 @@ const TransactionCard: NextPage<TransactionCardType> = ({
               trailingIcon={trailingIcon}
               leadingIcon={leadingIcon}
               label={label}
-              checkCircle={checkCircle}
             />
             <Box className={styles.closes091825Parent}>
               {!!showDiv && (

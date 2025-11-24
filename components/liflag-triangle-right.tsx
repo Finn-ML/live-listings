@@ -6,7 +6,6 @@ import styles from "./liflag-triangle-right.module.css";
 export type LiflagTriangleRightType = {
   className?: string;
   stage?: string;
-  liflagTriangleRight: string;
 
   /** Variant props */
   highlighted?: boolean;
@@ -16,7 +15,6 @@ const LiflagTriangleRight: NextPage<LiflagTriangleRightType> = ({
   className = "",
   highlighted = true,
   stage = "Option Period",
-  liflagTriangleRight,
 }) => {
   return (
     <Box
@@ -30,7 +28,7 @@ const LiflagTriangleRight: NextPage<LiflagTriangleRightType> = ({
         height={16}
         sizes="100vw"
         alt=""
-        src={liflagTriangleRight}
+        src="/li-flag-triangle-right.svg"
       />
       <div className={styles.pending}>{stage}</div>
     </Box>

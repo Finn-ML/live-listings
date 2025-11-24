@@ -10,7 +10,7 @@ export type ScaleType = {
   trailingIcon?: boolean;
   leadingIcon?: boolean;
   label?: string;
-  scale01: string;
+  type1?: string;
 
   /** Variant props */
   type?: string;
@@ -26,7 +26,7 @@ const Scale: NextPage<ScaleType> = ({
   leadingIcon = true,
   label = "1,500 ft²",
   scale01Border,
-  scale01,
+  type1,
 }) => {
   const scale01Style: CSSProperties = useMemo(() => {
     return {
@@ -47,7 +47,7 @@ const Scale: NextPage<ScaleType> = ({
           height={18}
           sizes="100vw"
           alt=""
-          src={scale01}
+          src="/scale-01.svg"
         >
           <Box className={styles.box} />
         </Image>

@@ -1,0 +1,66 @@
+.chartMini {
+  height: var(--height-56);
+  flex: 1;
+  position: relative;
+}
+.backgroundIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0.3px;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.box,
+.box2 {
+  position: relative;
+  display: none;
+}
+.lineIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0.3px;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.marker {
+  position: absolute;
+  height: 34.46%;
+  width: 17.18%;
+  top: 4.64%;
+  right: 25.02%;
+  bottom: 60.89%;
+  left: 57.8%;
+}
+.dot,
+.ring {
+  position: absolute;
+  border-radius: 200px;
+  border: 2px solid var(--color-mediumseagreen);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.ring {
+  top: calc(50% - 9.65px);
+  left: calc(50% - 9.85px);
+  width: 19.3px;
+  height: 19.3px;
+  opacity: 0.2;
+}
+.dot {
+  top: calc(50% - 5.25px);
+  left: calc(50% - 5.45px);
+  background-color: var(--Color-Base-White);
+  width: 10.5px;
+  height: 10.5px;
+}
