@@ -1,0 +1,59 @@
+.pieChart {
+  height: 320px;
+  width: 280px;
+  position: relative;
+  z-index: 0;
+}
+.background {
+  position: absolute;
+  height: var(--height-calc100-40);
+  width: 100%;
+  top: 20px;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  border-radius: var(--br-50);
+  background-color: var(--color-lavender);
+}
+.series1 {
+  background-color: var(--Color-Brand-Default);
+  z-index: 1;
+}
+.series1,
+.series2,
+.series3,
+.series4,
+.series5,
+.series6 {
+  position: absolute;
+  height: var(--height-calc100-40);
+  width: 100%;
+  top: 20px;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  border-radius: var(--br-50);
+}
+.series2 {
+  background-color: var(--color-cornflowerblue);
+  z-index: 2;
+}
+.series3,
+.series4,
+.series5,
+.series6 {
+  background-color: var(--Component-colors-Utility-Brand-utility-brand-400);
+  display: none;
+}
+.series4,
+.series5,
+.series6 {
+  background-color: var(--Component-colors-Utility-Brand-utility-brand-300);
+}
+.series5,
+.series6 {
+  background-color: var(--Component-colors-Utility-Brand-utility-brand-200);
+}
+.series6 {
+  background-color: var(--Component-colors-Utility-Gray-utility-gray-200);
+}

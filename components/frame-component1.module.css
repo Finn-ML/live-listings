@@ -51,6 +51,28 @@
   display: none;
   flex-shrink: 0;
 }
+.cta {
+  cursor: pointer;
+  border: var(--border-2);
+  padding: var(--padding-14);
+  background-color: var(--Color-Base-White);
+  height: var(--height-48);
+  box-shadow: var(--Shadows-shadow-xs-skeuomorphic);
+  border-radius: var(--br-10);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.xCloseIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: var(--height-20);
+  width: 100%;
+  position: relative;
+}
 .inputArea,
 .inputField {
   align-self: stretch;
@@ -171,7 +193,7 @@
   padding: var(--padding-14) var(--padding-24) var(--padding-16);
   gap: var(--gap-20);
 }
-.cta {
+.cta2 {
   height: var(--height-48);
   box-shadow: var(--Shadows-shadow-xs-skeuomorphic);
   padding: var(--padding-12) var(--padding-16);

@@ -8,8 +8,8 @@
   align-items: flex-start;
   padding: 184px 480px;
   box-sizing: border-box;
-  line-height: normal;
-  letter-spacing: normal;
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
 }
 @media screen and (max-width: 750px) {
   .addTitleCompanyPopUpExis {

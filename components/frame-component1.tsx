@@ -11,7 +11,6 @@ import {
   Button,
 } from "@mui/material";
 import Image from "next/image";
-import XClose from "./x-close";
 import InputField from "./input-field";
 import CollaboratorCard from "./collaborator-card";
 import CollaboratorCard1 from "./collaborator-card1";
@@ -68,7 +67,16 @@ const FrameComponent11: NextPage<FrameComponent11Type> = ({
             Lorem ipsum dolor sit amet consectur
           </div>
         </Box>
-        <XClose iconOnly state="Default" type="Tertiary" />
+        <button className={styles.cta}>
+          <Image
+            className={styles.xCloseIcon}
+            width={20}
+            height={20}
+            sizes="100vw"
+            alt=""
+            src="/x-close.svg"
+          />
+        </button>
       </Box>
       <section className={styles.inputArea}>
         <InputField
@@ -225,7 +233,7 @@ const FrameComponent11: NextPage<FrameComponent11Type> = ({
       </section>
       <Box className={styles.actionArea2}>
         <Button
-          className={styles.cta}
+          className={styles.cta2}
           variant="contained"
           sx={{
             textTransform: "none",
@@ -241,7 +249,7 @@ const FrameComponent11: NextPage<FrameComponent11Type> = ({
           Cancel
         </Button>
         <Button
-          className={styles.cta}
+          className={styles.cta2}
           variant="contained"
           sx={{
             textTransform: "none",
