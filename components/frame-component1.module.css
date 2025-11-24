@@ -1,0 +1,196 @@
+.actionAreaParent {
+  flex: 1;
+  box-shadow: var(--Shadows-shadow-lg);
+  border-radius: var(--br-16);
+  background-color: var(--Color-Base-White);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-24);
+  color: var(--Color-Text-Primary);
+  font-family: var(--font-montserrat);
+}
+.actionArea,
+.actionContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.actionArea {
+  border-bottom: var(--border-1);
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-16) var(--padding-24) var(--padding-14);
+  gap: var(--gap-10);
+}
+.actionContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-2);
+  min-width: 243px;
+}
+.addTitleCompany {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+}
+.loremIpsumDolor {
+  width: 390px;
+  position: relative;
+  font-size: var(--fs-14);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--Color-Text-Tertiary);
+  display: none;
+  flex-shrink: 0;
+}
+.inputArea,
+.inputField {
+  align-self: stretch;
+  font-family: var(--font-montserrat);
+  flex-shrink: 0;
+}
+.inputArea {
+  height: 496px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-24);
+  box-sizing: border-box;
+  gap: var(--gap-24);
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Color-Text-Tertiary);
+}
+.inputField {
+  border: 0;
+  background-color: transparent;
+  box-shadow: var(--Shadows-shadow-xs);
+  font-weight: 600;
+  font-size: var(--fs-16);
+  color: var(--color-darkgray);
+}
+.collaboratorCard,
+.collaboratorCarousel {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.collaboratorCarousel {
+  flex-direction: column;
+  gap: var(--gap-8);
+  flex-shrink: 0;
+}
+.collaboratorCard {
+  box-shadow: var(--Shadows-shadow-sm);
+  border-radius: var(--br-12);
+  background-color: var(--Color-Base-White);
+  border: var(--border-1);
+  overflow: hidden;
+  padding: var(--padding-16);
+  gap: var(--gap-12);
+}
+.frameParent,
+.usercompanyNameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frameParent {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-4);
+}
+.usercompanyNameParent {
+  gap: var(--gap-2);
+  font-size: var(--fs-16);
+  color: var(--Color-Text-Primary);
+}
+.usercompanyName {
+  align-self: stretch;
+}
+.locationemail,
+.typeLabel,
+.usercompanyName {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.locationemail {
+  align-self: stretch;
+  font-size: var(--fs-14);
+  color: var(--Color-Text-Secondary);
+}
+.typeLabel {
+  width: var(--width-356);
+  display: none;
+  flex-shrink: 0;
+}
+.frameGroup {
+  display: flex;
+  align-items: center;
+  padding: var(--padding-4) var(--padding-0) var(--padding-0);
+  gap: var(--gap-6);
+  flex-shrink: 0;
+}
+.ratingIconParent {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-2);
+}
+.div {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.collaboratorCardChild {
+  height: var(--height-72);
+  width: var(--width-20);
+  max-height: 100%;
+  display: none;
+  flex-shrink: 0;
+}
+.actionArea2 {
+  align-self: stretch;
+  border-top: var(--border-1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-14) var(--padding-24) var(--padding-16);
+  gap: var(--gap-20);
+}
+.cta {
+  height: var(--height-48);
+  box-shadow: var(--Shadows-shadow-xs-skeuomorphic);
+  padding: var(--padding-12) var(--padding-16);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 750px) {
+  .inputArea {
+    padding-top: var(--padding-20);
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .addTitleCompany {
+    font-size: var(--fs-19);
+    line-height: 29px;
+  }
+  .actionArea2 {
+    flex-wrap: wrap;
+    gap: var(--gap-20);
+  }
+}

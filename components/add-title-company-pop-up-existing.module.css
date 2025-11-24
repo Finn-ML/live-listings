@@ -1,0 +1,27 @@
+.addTitleCompanyPopUpExis {
+  width: 1440px;
+  backdrop-filter: blur(12px);
+  background-color: var(--color-gray);
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 184px 480px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .addTitleCompanyPopUpExis {
+    padding-left: 240px;
+    padding-right: 240px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .addTitleCompanyPopUpExis {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+}

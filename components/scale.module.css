@@ -1,0 +1,47 @@
+.badge {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8) var(--padding-12);
+  background-color: var(--Color-Badge-Default-Default-BG);
+  border-radius: var(--br-1000);
+  display: flex;
+  align-items: center;
+  gap: var(--gap-4);
+}
+.scale01Icon {
+  height: var(--height-18);
+  width: var(--width-18);
+  position: relative;
+  flex-shrink: 0;
+}
+.box {
+  position: relative;
+  display: none;
+}
+.labelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2) var(--padding-4);
+  flex-shrink: 0;
+}
+.label {
+  position: relative;
+  font-size: var(--fs-14);
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--Color-Text-Primary);
+  text-align: left;
+}
+.chevronRightIcon {
+  height: var(--height-18);
+  width: var(--width-18);
+  position: relative;
+  flex-shrink: 0;
+}
+.box2 {
+  position: relative;
+  display: none;
+}

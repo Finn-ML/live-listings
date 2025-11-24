@@ -1,0 +1,14 @@
+.companyImage {
+  height: var(--height-56);
+  width: var(--width-56);
+  border-radius: var(--br-1000);
+  background-color: var(--Color-Base-White);
+  border: var(--border-1);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10);
+}

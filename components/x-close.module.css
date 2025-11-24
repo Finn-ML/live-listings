@@ -1,0 +1,22 @@
+.cta {
+  cursor: pointer;
+  border: var(--border-2);
+  padding: var(--padding-14);
+  background-color: var(--Color-Base-White);
+  height: var(--height-48);
+  box-shadow: var(--Shadows-shadow-xs-skeuomorphic);
+  border-radius: var(--br-10);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.xCloseIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: var(--height-20);
+  width: 100%;
+  position: relative;
+}

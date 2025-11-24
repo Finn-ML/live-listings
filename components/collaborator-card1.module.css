@@ -1,0 +1,72 @@
+.collaboratorCard {
+  align-self: stretch;
+  box-shadow: var(--shadow-drop);
+  border-radius: var(--br-12);
+  background-color: var(--Color-Base-White);
+  border: 2px solid var(--Color-Base-White);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-16);
+  gap: var(--gap-12);
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Color-Text-Tertiary);
+  font-family: var(--font-montserrat);
+}
+.frameParent,
+.usercompanyNameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-4);
+}
+.usercompanyNameParent {
+  gap: var(--gap-2);
+  flex-shrink: 0;
+  font-size: var(--fs-16);
+  color: var(--Color-Text-Primary);
+}
+.usercompanyName {
+  align-self: stretch;
+}
+.locationemail,
+.typeLabel,
+.usercompanyName {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.locationemail {
+  align-self: stretch;
+  font-size: var(--fs-14);
+  color: var(--Color-Text-Secondary);
+}
+.typeLabel {
+  width: 388px;
+  flex-shrink: 0;
+}
+.frameGroup {
+  display: flex;
+  align-items: center;
+  padding: var(--padding-4) var(--padding-0) var(--padding-0);
+  gap: var(--gap-6);
+  flex-shrink: 0;
+}
+.ratingIconParent {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-2);
+}
+.div {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+}

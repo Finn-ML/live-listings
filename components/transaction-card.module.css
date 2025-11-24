@@ -1,0 +1,170 @@
+.transactionCard {
+  align-self: stretch;
+  box-shadow: var(--Shadows-shadow-md);
+  border-radius: var(--br-12);
+  background-color: var(--Color-Base-White);
+  border: var(--border-1);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-8);
+  gap: var(--gap-8);
+  min-width: 979px;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Color-Text-Tertiary);
+  font-family: var(--font-montserrat);
+}
+.transactionCardChild {
+  height: 160px;
+  width: 240px;
+  border-radius: var(--br-6);
+  object-fit: cover;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-12);
+  gap: var(--gap-24);
+}
+.beverlyWaySpringfieldParent,
+.frameGroup,
+.stageIndicatorParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-12);
+  font-size: var(--fs-16);
+  color: var(--Color-Text-Primary);
+}
+.beverlyWaySpringfieldParent,
+.stageIndicatorParent {
+  gap: var(--gap-8);
+}
+.beverlyWaySpringfieldParent {
+  gap: var(--gap-2);
+}
+.beverlyWaySpringfield,
+.washingtonDc {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.washingtonDc {
+  font-size: var(--fs-14);
+  font-weight: 600;
+  color: var(--Color-Text-Tertiary);
+}
+.badgeParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-4);
+}
+.frameContainer,
+.listedForParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  text-align: right;
+}
+.listedForParent {
+  gap: var(--gap-2);
+}
+.div,
+.listedFor {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.div {
+  font-size: var(--fs-18);
+  color: var(--Color-Text-Primary);
+}
+.offeredPriceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-2);
+}
+.offeredPrice {
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.div2,
+.divider,
+.offeredPrice {
+  position: relative;
+}
+.div2 {
+  font-size: var(--fs-18);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  color: var(--Color-Text-Primary);
+}
+.divider {
+  align-self: stretch;
+  width: var(--width-1);
+  background-color: var(--Color-Surface-Borders);
+}
+.badgeGroup,
+.frameBox {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameBox {
+  justify-content: space-between;
+  gap: var(--gap-16);
+}
+.badgeGroup {
+  gap: var(--gap-8);
+}
+.closes091825Parent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-6);
+}
+.closes091825,
+.div3,
+.updated2dAgo {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.ctaParent {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-8);
+}
+.cta {
+  height: var(--height-48);
+  width: 192px;
+  box-shadow: var(--Shadows-shadow-xs-skeuomorphic);
+  padding: var(--padding-12) var(--padding-16);
+  box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+.root {
+  height: var(--height-44);
+  flex: 1;
+  box-shadow: var(--Shadows-shadow-xs);
+  border-radius: var(--br-8);
+  background-color: var(--Color-Base-White);
+  border: var(--border-2);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-12) var(--padding-16);
+  text-align: left;
+  font-size: var(--Font-size-text-md);
+  color: var(--Color-Text-Primary);
+  font-family: var(--font-montserrat);
+}
+.root[data-iconOnly="false"][data-selected="false"] {
+  box-shadow: unset;
+  background-color: unset;
+  border: unset;
+}
+.submitQuestionText {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}

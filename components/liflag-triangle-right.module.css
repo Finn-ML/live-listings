@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-4);
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Color-Badge-Brand-Brand-text);
+  font-family: var(--font-montserrat);
+}
+.root[data-highlighted="false"] .pending {
+  color: var(--Color-Text-Tertiary);
+}
+.liflagTriangleRightIcon {
+  height: var(--height-16);
+  width: var(--width-16);
+  position: relative;
+}
+.pending {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}

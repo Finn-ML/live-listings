@@ -1,0 +1,54 @@
+.root {
+  border-radius: var(--br-1000);
+  background-color: var(--Color-Badge-Success-Success-BG);
+  display: flex;
+  align-items: center;
+  padding: var(--padding-8) var(--padding-12);
+  gap: var(--gap-4);
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Color-Badge-Success-Success-text);
+  font-family: var(--font-montserrat);
+}
+.root[data-type="Alert"] {
+  background-color: var(--Color-Badge-Alert-Alert-BG);
+}
+.root[data-type="Brand"] {
+  background-color: var(--Color-Badge-Brand-Brand-BG);
+}
+.root[data-type="Alert"] .label {
+  color: var(--Color-Badge-Alert-Alert-text);
+}
+.root[data-type="Brand"] .label {
+  color: var(--Color-Badge-Brand-Brand-text);
+}
+.root[data-type="Alert"] .chevronRightIcon,
+.root[data-type="Brand"] .chevronRightIcon {
+  display: none;
+}
+.checkCircleIcon {
+  height: var(--height-18);
+  width: var(--width-18);
+  position: relative;
+}
+.labelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2) var(--padding-4);
+}
+.label {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  font-weight: 600;
+}
+.chevronRightIcon {
+  height: var(--height-18);
+  width: var(--width-18);
+  position: relative;
+}
+.box {
+  position: relative;
+  display: none;
+}

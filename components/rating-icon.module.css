@@ -1,0 +1,30 @@
+.root {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.root[data-color="Yellow"][data-fill="50%"] .starIcon {
+  width: var(--width-10);
+}
+.starBackgroundIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 2.5%;
+  right: 0;
+  bottom: -2.5%;
+  left: 0;
+  border-radius: var(--br-0_5);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.starIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--width-20);
+  height: var(--height-20);
+}

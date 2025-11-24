@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Figma Variables */
+
+  /* Spacing */
+  --Font-size-text-md: 16px;
+  --Font-size-text-sm: 14px;
+  --Line-height-text-sm: 20px;
+
+  /* Color */
+  --Colors-Effects-Shadows-shadow-lg-01: rgba(10, 13, 18, 0.08);
+  --Colors-Effects-Shadows-shadow-lg-02: rgba(10, 13, 18, 0.03);
+  --Colors-Effects-Shadows-shadow-lg-03: rgba(10, 13, 18, 0.04);
+  --Colors-Effects-Shadows-shadow-md-01: rgba(10, 13, 18, 0.1);
+  --Colors-Effects-Shadows-shadow-md-02: rgba(10, 13, 18, 0.06);
+  --Colors-Effects-Shadows-shadow-skeumorphic-inner: rgba(10, 13, 18, 0.05);
+  --Colors-Effects-Shadows-shadow-skeumorphic-inner-border: rgba(
+    10,
+    13,
+    18,
+    0.18
+  );
+  --Colors-Effects-Shadows-shadow-sm-01: rgba(10, 13, 18, 0.1);
+  --Colors-Effects-Shadows-shadow-sm-02: rgba(10, 13, 18, 0.1);
+  --Colors-Effects-Shadows-shadow-xs: rgba(10, 13, 18, 0.05);
+  --Colors-Green-600: #099250;
+
+  /* Common Style Variables */
+
+  /* Color */
+  --Color-Badge-Alert-Alert-BG: #fef0c7;
+  --Color-Badge-Alert-Alert-text: #a85700;
+  --Color-Badge-Brand-Brand-BG: #e9efff;
+  --Color-Badge-Brand-Brand-text: #0039dd;
+  --Color-Badge-Brand-Brand-text1: #0039dd;
+  --Color-Badge-Default-Default-BG: #f4f5f9;
+  --Color-Badge-Success-Success-BG: #d9ffd7;
+  --Color-Badge-Success-Success-text: #067800;
+  --Color-Base-White: #fff;
+  --Color-Base-White1: #fff;
+  --Color-CTA-Secondary-Stroke: #d8dbe4;
+  --color-darkgray: #b0b3ba;
+  --color-gray: rgba(7, 16, 40, 0.64);
+  --Color-Surface-Borders: #e4e7ef;
+  --Color-Surface-Tabs-BG: #f1f4f9;
+  --Color-Text-Primary: #071028;
+  --Color-Text-Primary1: #071028;
+  --Color-Text-Secondary: #40475b;
+  --Color-Text-Tertiary: #6a707e;
+  --Color-Text-Tertiary1: #6a707e;
+  --color-whitesmoke: #ebedf1;
+
+  /* Gap */
+  --gap-2: 2px;
+  --gap-4: 4px;
+  --gap-6: 6px;
+  --gap-8: 8px;
+  --gap-10: 10px;
+  --gap-12: 12px;
+  --gap-16: 16px;
+  --gap-20: 20px;
+  --gap-24: 24px;
+
+  /* Padding */
+  --padding-0: 0px;
+  --padding-2: 2px;
+  --padding-4: 4px;
+  --padding-8: 8px;
+  --padding-10: 10px;
+  --padding-12: 12px;
+  --padding-14: 14px;
+  --padding-16: 16px;
+  --padding-20: 20px;
+  --padding-24: 24px;
+
+  /* BorderRadius */
+  --br-6: 6px;
+  --br-8: 8px;
+  --br-10: 10px;
+  --br-12: 12px;
+  --br-16: 16px;
+  --br-1000: 1000px;
+  --br-0_5: 0.5px;
+
+  /* Font */
+  --font-dm-sans: DM Sans;
+  --font-montserrat: Montserrat;
+
+  /* FontSize */
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-19: 19px;
+  --fs-24: 24px;
+
+  /* Borders */
+  --border-1: 1px solid var(--Color-Surface-Borders);
+  --border-2: 1px solid var(--Color-CTA-Secondary-Stroke);
+
+  /* Shadows */
+  --shadow-drop: 0px 0px 0px 2px #124fff;
+  --Shadows-shadow-lg: 0px 12px 16px -4px var(--Colors-Effects-Shadows-shadow-lg-01),
+    0px 4px 6px -2px var(--Colors-Effects-Shadows-shadow-lg-02),
+    0px 2px 2px -1px var(--Colors-Effects-Shadows-shadow-lg-03);
+  --Shadows-shadow-md: 0px 4px 6px -1px var(--Colors-Effects-Shadows-shadow-md-01),
+    0px 2px 4px -2px var(--Colors-Effects-Shadows-shadow-md-02);
+  --Shadows-shadow-sm: 0px 1px 3px var(--Colors-Effects-Shadows-shadow-md-01),
+    0px 1px 2px -1px var(--Colors-Effects-Shadows-shadow-md-01);
+  --Shadows-shadow-xs: 0px 1px 2px
+    var(--Colors-Effects-Shadows-shadow-skeumorphic-inner);
+  --Shadows-shadow-xs-skeuomorphic: 0px 0px 0px 1px
+      var(--Colors-Effects-Shadows-shadow-skeumorphic-inner-border) inset,
+    0px -2px 0px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner) inset,
+    0px 1px 2px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner);
+  --Shadows-shadow-xs-skeuomorphic1: 0px 0px 0px 1px
+      var(--Colors-Effects-Shadows-shadow-skeumorphic-inner-border) inset,
+    0px -2px 0px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner) inset,
+    0px 1px 2px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner);
+
+  /* WidthHeights */
+  --height-16: 16px;
+  --height-18: 18px;
+  --height-20: 20px;
+  --height-44: 44px;
+  --height-48: 48px;
+  --height-56: 56px;
+  --height-72: 72px;
+  --width-1: 1px;
+  --width-10: 10px;
+  --width-16: 16px;
+  --width-18: 18px;
+  --width-20: 20px;
+  --width-48: 48px;
+  --width-56: 56px;
+  --width-356: 356px;
+
+  /* LineHeights */
+  --lh-20: 20px;
+
+  /* LetterSpacings */
+  --ls--0_02: -0.02;
+}

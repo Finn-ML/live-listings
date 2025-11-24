@@ -1,0 +1,79 @@
+.collaboratorCard {
+  align-self: stretch;
+  box-shadow: var(--Shadows-shadow-sm);
+  border-radius: var(--br-12);
+  background-color: var(--Color-Base-White);
+  border: var(--border-1);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-16);
+  gap: var(--gap-12);
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Color-Text-Tertiary);
+  font-family: var(--font-montserrat);
+}
+.collaboratorInfo,
+.collaboratorInfoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.collaboratorInfoParent {
+  align-self: stretch;
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-4);
+}
+.collaboratorInfo {
+  gap: var(--gap-2);
+  font-size: var(--fs-16);
+  color: var(--Color-Text-Primary);
+}
+.collaboratorInfo,
+.usercompanyName {
+  align-self: stretch;
+}
+.locationemail,
+.typeLabel,
+.usercompanyName {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.locationemail {
+  align-self: stretch;
+  font-size: var(--fs-14);
+  color: var(--Color-Text-Secondary);
+}
+.typeLabel {
+  width: var(--width-356);
+  flex-shrink: 0;
+}
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  padding: var(--padding-4) var(--padding-0) var(--padding-0);
+  gap: var(--gap-6);
+  flex-shrink: 0;
+}
+.ratingDisplay {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-2);
+}
+.divider {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.collaboratorCardChild {
+  height: var(--height-72);
+  width: var(--width-20);
+  max-height: 100%;
+  flex-shrink: 0;
+}
