@@ -1,0 +1,37 @@
+.chartMarker {
+  width: var(--width-12);
+  height: 179px;
+  margin: 0 !important;
+  position: absolute;
+  right: 223px;
+  bottom: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  isolation: isolate;
+  z-index: 1;
+}
+.lineIcon,
+.marker {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.marker {
+  width: var(--width-12);
+  height: var(--height-12);
+  border-radius: var(--br-200);
+  background-color: var(--Color-Base-White);
+  border: 2px solid var(--Color-Text-Tertiary);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineIcon {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 0;
+  margin-top: -6px;
+}

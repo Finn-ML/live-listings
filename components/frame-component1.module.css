@@ -76,7 +76,7 @@
   box-shadow: var(--Shadows-shadow-xs);
   font-weight: 600;
   font-size: var(--fs-16);
-  color: var(--color-darkgray);
+  color: var(--Color-Text-Placeholder);
 }
 .collaboratorCard,
 .collaboratorCarousel {

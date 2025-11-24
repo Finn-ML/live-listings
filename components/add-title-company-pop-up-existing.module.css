@@ -1,7 +1,7 @@
 .addTitleCompanyPopUpExis {
   width: 1440px;
   backdrop-filter: blur(12px);
-  background-color: var(--color-gray);
+  background-color: var(--color-gray-100);
   max-width: 100%;
   overflow: hidden;
   display: flex;

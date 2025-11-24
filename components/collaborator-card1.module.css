@@ -1,6 +1,6 @@
 .collaboratorCard {
   align-self: stretch;
-  box-shadow: var(--shadow-drop);
+  box-shadow: var(--shadow-drop-1);
   border-radius: var(--br-12);
   background-color: var(--Color-Base-White);
   border: 2px solid var(--Color-Base-White);

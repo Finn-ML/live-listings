@@ -1,0 +1,69 @@
+.chartData,
+.series1Icon {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+.chartData {
+  width: calc(100% - 48px);
+  height: calc(100% - 52px);
+  margin: 0 !important;
+  right: 0;
+  bottom: 52px;
+  left: 48px;
+  z-index: 3;
+}
+.series1Icon {
+  height: 100%;
+  width: var(--width-calc100166);
+  right: -166px;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.box,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  position: relative;
+  display: none;
+}
+.series2Icon {
+  position: absolute;
+  height: 76.06%;
+  width: var(--width-calc100166);
+  top: 12.5%;
+  right: -166px;
+  bottom: 11.44%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.box7 {
+  position: relative;
+  display: none;
+}
+.series3Icon {
+  position: absolute;
+  height: 62.5%;
+  width: var(--width-calc100166);
+  top: 32.29%;
+  right: -166px;
+  bottom: 5.21%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.box8 {
+  position: relative;
+  display: none;
+}

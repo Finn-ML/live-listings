@@ -45,7 +45,7 @@
 .dot,
 .ring {
   position: absolute;
-  border-radius: 200px;
+  border-radius: var(--br-200);
   border: 2px solid var(--color-mediumseagreen);
   box-sizing: border-box;
   overflow: hidden;

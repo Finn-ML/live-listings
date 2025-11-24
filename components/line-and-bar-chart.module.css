@@ -1,0 +1,44 @@
+.lineAndBarChart {
+  align-self: stretch;
+  display: flex;
+  z-index: 0;
+  text-align: center;
+  font-size: var(--Font-size-text-xs);
+  color: var(--Colors-Text-text-tertiary-600);
+  font-family: var(--Font-family-font-family-body);
+}
+.axis,
+.lineAndBarChart,
+.yAxisLabel {
+  height: var(--height-240);
+  align-items: flex-start;
+}
+.axis {
+  width: 1028px;
+  display: flex;
+  gap: var(--spacing-xs);
+}
+.yAxisLabel {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-0) var(--spacing-3xl);
+  box-sizing: border-box;
+}
+.content,
+.text {
+  position: relative;
+}
+.text {
+  line-height: var(--Line-height-text-xs);
+  font-weight: 500;
+  transform: rotate(-90deg);
+}
+.content {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  isolation: isolate;
+}

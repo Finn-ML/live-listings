@@ -1,0 +1,42 @@
+.xAxis {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--spacing-3xl) var(--padding-0)
+    var(--spacing-7xl);
+  gap: var(--gap-20);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--fs-12);
+  color: var(--Color-Text-Tertiary);
+  font-family: var(--font-montserrat);
+}
+.xAxisMarks,
+.xAxisMarks10,
+.xAxisMarks11,
+.xAxisMarks12,
+.xAxisMarks13,
+.xAxisMarks14,
+.xAxisMarks2,
+.xAxisMarks3,
+.xAxisMarks4,
+.xAxisMarks5,
+.xAxisMarks6,
+.xAxisMarks7,
+.xAxisMarks8,
+.xAxisMarks9 {
+  width: var(--width-16);
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.xAxisMarks15 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+}

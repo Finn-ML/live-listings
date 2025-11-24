@@ -1,0 +1,43 @@
+.tooltip {
+  margin: 0 !important;
+  position: absolute;
+  top: -60px;
+  left: calc(50% - 49px);
+  box-shadow: var(--Shadows-shadow-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--Color-Base-White);
+  font-family: var(--font-montserrat);
+}
+.content,
+.textAndSupportingText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.content {
+  border-radius: var(--radius-md);
+  background-color: var(--color-gray-200);
+  padding: var(--spacing-md) var(--spacing-lg);
+}
+.textAndSupportingText {
+  gap: var(--gap-2);
+}
+.supportingText,
+.text {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.supportingText {
+  font-size: var(--fs-12);
+  font-weight: 500;
+  color: var(--Color-Text-Placeholder);
+}

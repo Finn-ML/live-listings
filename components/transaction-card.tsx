@@ -28,10 +28,6 @@ export type TransactionCardType = {
   badgeLabel1?: string;
   badgeLabel2?: string;
   badgeLabel3?: string;
-  badgeChevronRight?: string;
-  badgeChevronRight1?: string;
-  badgeChevronRight2?: string;
-  badgeChevronRight3?: string;
   badgeTrailingIcon?: boolean;
   badgeTrailingIcon1?: boolean;
   badgeTrailingIcon2?: boolean;
@@ -46,7 +42,6 @@ export type TransactionCardType = {
   badgeScale01Border3?: string;
   type1?: "Success" | "Alert" | "Brand";
   label?: string;
-  chevronRight?: string;
   trailingIcon?: boolean;
   leadingIcon?: boolean;
   iconOnly?: boolean;
@@ -77,10 +72,6 @@ const TransactionCard: NextPage<TransactionCardType> = ({
   badgeLabel1,
   badgeLabel2,
   badgeLabel3,
-  badgeChevronRight,
-  badgeChevronRight1,
-  badgeChevronRight2,
-  badgeChevronRight3,
   badgeTrailingIcon,
   badgeTrailingIcon1,
   badgeTrailingIcon2,
@@ -95,7 +86,6 @@ const TransactionCard: NextPage<TransactionCardType> = ({
   badgeScale01Border3,
   type1 = "Success",
   label,
-  chevronRight,
   trailingIcon,
   leadingIcon,
   iconOnly,

@@ -1,0 +1,32 @@
+.yAxisLine {
+  align-self: stretch;
+  height: var(--height-22);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex-shrink: 0;
+  text-align: right;
+  font-size: var(--Font-size-text-xs);
+  color: var(--Color-Text-Tertiary);
+  font-family: var(--font-montserrat);
+}
+.number {
+  width: var(--width-40);
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dividerIcon {
+  height: var(--height-1);
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.box {
+  position: relative;
+  display: none;
+}
